@@ -1,0 +1,57 @@
+.table {
+    width: 70%;
+    margin: 0 auto;
+    background-color: darkslateblue;
+    color: white;
+    border-radius: 20px;
+}
+
+.table thead th {
+    background-color: white;
+    color: black;
+    text-align: right;
+}
+
+.table tbody tr:nth-child(even) {
+    border: 2px solid black;
+    background-color: blueviolet;
+}
+
+.tutorial {
+    width: 60%;
+    margin: 40px auto;
+}
+
+.tutorial > video {
+    width: 100%;
+    height: 500px;
+} 
+
+.tutorial button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.tutorial .play {
+    background-color: darkred;
+}
+
+.tutorial .stop {
+    background-color: darkgreen;
+}
+
+.tutorial .mute {
+    background-color: orange;
+}
+
+.tutorial .fullscreen {
+    background-color: lightblue;
+}
+
+@media screen and (max-width: 628px) {
+    .table {
+        width: 40%;
+    }
+
+}

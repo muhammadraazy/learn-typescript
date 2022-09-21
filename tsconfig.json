@@ -1,6 +1,13 @@
 {
     "compilerOptions": {
-        "target": "es5",
-        "strictNullChecks": true
-    }
+        "target": "es6",
+        "module": "es2015",
+        "lib": ["DOM", "ESNext"],
+        "strictNullChecks": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": true,
+        "rootDir": "./src",
+        "outDir": "./public"
+    },
+    "include": ["src"]
 }
